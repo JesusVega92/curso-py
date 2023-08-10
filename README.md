@@ -14,6 +14,7 @@ para correr el juego debes seguir estas instrucciones en la terminal
 ```sh
 git clone
 cd app
+python3 -m venv appenv
 source appenv/bin/activate
 pip3 install -r requirements.txt
 python3 main.py
